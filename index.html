@@ -10,6 +10,8 @@
   <link rel="preload" href="fonts/playfair-display.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/playfair-display-bold.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="slick/css/slick.css">
+  <link rel="stylesheet" href="slick/css/slick-theme.css">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -131,8 +133,50 @@
       </div>
     </section>
 
+    <section class="main-feedback container">
+      <div class="feedback"><p class="feedback-avatar"><img src="img/avatar.jpg" alt="Аватар автора"></p>
+      <p class="feedback-name">Елена Новикова</p>
+      <span>студентка</span>
+      <p class="feedback-description">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+      </div>
+
+      <div class="feedback"><p class="feedback-avatar"><img src="img/avatar.jpg" alt="Аватар автора"></p>
+        <p class="feedback-name">Елена Новикова</p>
+        <span>студентка</span>
+        <p class="feedback-description">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+      </div>
+
+      <div class="feedback"><p class="feedback-avatar"><img src="img/avatar.jpg" alt="Аватар автора"></p>
+        <p class="feedback-name">Елена Новикова</p>
+        <span>студентка</span>
+        <p class="feedback-description">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+      </div>
+
+      <div class="feedback"><p class="feedback-avatar"><img src="img/avatar.jpg" alt="Аватар автора"></p>
+        <p class="feedback-name">Елена Новикова</p>
+        <span>студентка</span>
+        <p class="feedback-description">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+      </div>
+    </section>
+
   <script src="js/vendor/swiper.js"></script>
   <script src="js/lib/slider-main.js"></script>
+
+  <script src="slick/js/jquery.min.js"></script>
+  <script src="slick/js/slick.min.js"></script>
+  <script>
+        $(document).ready(function () {
+            $('.main-feedback').slick({
+                arrows: true,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 500,
+                prevArrow: '<button type="button" class="slick-arrow__prev slick-arrow"></button>',
+                nextArrow: '<button type="button" class="slick-arrow__next slick-arrow"></button>',
+            });
+        });
+  </script>
   
 </body>
 
