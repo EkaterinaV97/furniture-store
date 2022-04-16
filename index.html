@@ -20,7 +20,7 @@
   <header class="page-header">
     <div class="page-header__wrapper container">
       <div class="page-header__logo">
-        <a href=""><img src="img/logo.svg" width="20" height="20" alt="Логотип Callium"></a>
+        <a href="#"><img src="img/logo.svg" width="20" height="20" alt="Логотип Callium"></a>
       </div>
       <nav class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
         <ul class="site-nav__list">
@@ -226,10 +226,12 @@
     <div class="left-footer">
       <a href="#"><img src="img/logo.svg" alt=""></a>
       <div class="flex-contact">
-      <img src="img/icon-phone.svg" alt="Phone">
+      <div class="phone"><img src="img/icon-phone.svg" alt="Phone">
       <p>+7(495) 205-28-14</p>
-      <img src="img/icon-mail.svg" alt="Mail">
-      <p>callium@gmail.com</p>      
+      </div>
+      <div class="mail"><img src="img/icon-mail.svg" alt="Mail">
+      <p>callium@gmail.com</p>
+      </div>   
       </div>
     </div>
 
@@ -261,6 +263,35 @@
                 speed: 500,
                 prevArrow: '<button type="button" class="slick-arrow__prev slick-arrow"></button>',
                 nextArrow: '<button type="button" class="slick-arrow__next slick-arrow"></button>',
+                responsive: [
+                    {
+                        breakpoint: 1440,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: false,
+                            dots: true,
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: true,
+                            arrows: false,
+                        }
+                    },
+                    {
+                        breakpoint: 425,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: false,
+                            arrows: false,
+                        }
+                    },
+                ]
             });
         });
   </script>
