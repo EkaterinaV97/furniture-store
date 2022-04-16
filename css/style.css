@@ -1090,3 +1090,61 @@ img {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Section "Last chance" with card */
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #FFFFFF;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 66px;
+}
+
+.right-footer a {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303032;
+}
+
+.right-footer {
+  width: 505px;
+  margin-top: 100px;
+  margin-bottom: 64px;
+}
+
+.flex-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-footer {
+  width: 377px;
+  margin-top: 100px;
+  margin-bottom: 64px;
+}
+
+.flex-contact {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
