@@ -20,6 +20,3 @@ Fonts connected locally.
 -  600 - Semi Bold (Demi Bold)
 - 700 - Bold
 
-## My commentary
-1. Самый последний слайдер сделала по своему, немного не разобралась с первым.
-2. Бургер меню на чистом CSS 
