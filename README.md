@@ -9,15 +9,17 @@ The project is called a furniture store. The project implemented a furniture sto
 
 ## Fonts
 This project uses fonts:
-1. Open-Sans
-2. Playfair display
-3. Roboto
+- Open-Sans
+- Playfair display
+- Roboto
 
 Fonts connected locally.
 
 **Font's weight**
-1. 400 - Regular (Normal)
-2. 600 - Semi Bold (Demi Bold)
-3. 700 - Bold
+- 400 - Regular (Normal)
+-  600 - Semi Bold (Demi Bold)
+- 700 - Bold
 
 ## My commentary
+1. Самый последний слайдер сделала по своему, немного не разобралась с первым.
+2. Бургер меню на чистом CSS 
