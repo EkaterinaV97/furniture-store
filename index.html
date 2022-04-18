@@ -28,7 +28,6 @@
           <li class="site-nav__item"><a href="#">Освещение</a></li>
           <li class="site-nav__item"><a href="#">Текстиль</a></li>
         </ul>
-        <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
       </nav>
       <ul class="user-nav page-header__user-nav">
         <li class="user-nav__item user-nav__item--search">
@@ -39,7 +38,24 @@
         </li>
       </ul>
 
-      <img class="page-header__burger-menu" src="img/icon-burger.svg" alt="Burger Menu">
+      <div id="menuArea">
+        <input type="checkbox" id="menuToggle"></input>
+      
+      <label for="menuToggle" class="menuOpen">
+        <div class="open"></div>
+      </label>
+      
+      <div class="menu menuEffects">
+        <label for="menuToggle"></label>
+        <div class="menuContent">
+          <ul>
+            <li class="site-nav__item"><a href="#">Мебель</a></li>
+            <li class="site-nav__item"><a href="#">Освещение</a></li>
+            <li class="site-nav__item"><a href="#">Текстиль</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
     </div>
   </header>
 
